@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F264494D24FEF1D4003895BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264494C24FEF1D4003895BA /* AppDelegate.swift */; };
+		F264494F24FEF1D4003895BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264494E24FEF1D4003895BA /* SceneDelegate.swift */; };
+		F264495124FEF1D4003895BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264495024FEF1D4003895BA /* ViewController.swift */; };
+		F264495424FEF1D4003895BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F264495224FEF1D4003895BA /* Main.storyboard */; };
+		F264495624FEF1D5003895BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F264495524FEF1D5003895BA /* Assets.xcassets */; };
+		F264495924FEF1D5003895BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F264495724FEF1D5003895BA /* LaunchScreen.storyboard */; };
+		F264496424FEF1D5003895BA /* SFSU_Dominic_ConfettiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264496324FEF1D5003895BA /* SFSU_Dominic_ConfettiTests.swift */; };
+		F264496F24FEF1D5003895BA /* SFSU_Dominic_ConfettiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264496E24FEF1D5003895BA /* SFSU_Dominic_ConfettiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F264496024FEF1D5003895BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F264494124FEF1D4003895BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F264494824FEF1D4003895BA;
+			remoteInfo = "SFSU-Dominic-Confetti";
+		};
+		F264496B24FEF1D5003895BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F264494124FEF1D4003895BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F264494824FEF1D4003895BA;
+			remoteInfo = "SFSU-Dominic-Confetti";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F264494924FEF1D4003895BA /* SFSU-Dominic-Confetti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SFSU-Dominic-Confetti.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F264494C24FEF1D4003895BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F264494E24FEF1D4003895BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F264495024FEF1D4003895BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F264495324FEF1D4003895BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F264495524FEF1D5003895BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F264495824FEF1D5003895BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F264495A24FEF1D5003895BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F264495F24FEF1D5003895BA /* SFSU-Dominic-ConfettiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SFSU-Dominic-ConfettiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F264496324FEF1D5003895BA /* SFSU_Dominic_ConfettiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSU_Dominic_ConfettiTests.swift; sourceTree = "<group>"; };
+		F264496524FEF1D5003895BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F264496A24FEF1D5003895BA /* SFSU-Dominic-ConfettiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SFSU-Dominic-ConfettiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F264496E24FEF1D5003895BA /* SFSU_Dominic_ConfettiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSU_Dominic_ConfettiUITests.swift; sourceTree = "<group>"; };
+		F264497024FEF1D5003895BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F264494624FEF1D4003895BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F264495C24FEF1D5003895BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F264496724FEF1D5003895BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F264494024FEF1D4003895BA = {
+			isa = PBXGroup;
+			children = (
+				F264494B24FEF1D4003895BA /* SFSU-Dominic-Confetti */,
+				F264496224FEF1D5003895BA /* SFSU-Dominic-ConfettiTests */,
+				F264496D24FEF1D5003895BA /* SFSU-Dominic-ConfettiUITests */,
+				F264494A24FEF1D4003895BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F264494A24FEF1D4003895BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F264494924FEF1D4003895BA /* SFSU-Dominic-Confetti.app */,
+				F264495F24FEF1D5003895BA /* SFSU-Dominic-ConfettiTests.xctest */,
+				F264496A24FEF1D5003895BA /* SFSU-Dominic-ConfettiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F264494B24FEF1D4003895BA /* SFSU-Dominic-Confetti */ = {
+			isa = PBXGroup;
+			children = (
+				F264494C24FEF1D4003895BA /* AppDelegate.swift */,
+				F264494E24FEF1D4003895BA /* SceneDelegate.swift */,
+				F264495024FEF1D4003895BA /* ViewController.swift */,
+				F264495224FEF1D4003895BA /* Main.storyboard */,
+				F264495524FEF1D5003895BA /* Assets.xcassets */,
+				F264495724FEF1D5003895BA /* LaunchScreen.storyboard */,
+				F264495A24FEF1D5003895BA /* Info.plist */,
+			);
+			path = "SFSU-Dominic-Confetti";
+			sourceTree = "<group>";
+		};
+		F264496224FEF1D5003895BA /* SFSU-Dominic-ConfettiTests */ = {
+			isa = PBXGroup;
+			children = (
+				F264496324FEF1D5003895BA /* SFSU_Dominic_ConfettiTests.swift */,
+				F264496524FEF1D5003895BA /* Info.plist */,
+			);
+			path = "SFSU-Dominic-ConfettiTests";
+			sourceTree = "<group>";
+		};
+		F264496D24FEF1D5003895BA /* SFSU-Dominic-ConfettiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F264496E24FEF1D5003895BA /* SFSU_Dominic_ConfettiUITests.swift */,
+				F264497024FEF1D5003895BA /* Info.plist */,
+			);
+			path = "SFSU-Dominic-ConfettiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F264494824FEF1D4003895BA /* SFSU-Dominic-Confetti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F264497324FEF1D5003895BA /* Build configuration list for PBXNativeTarget "SFSU-Dominic-Confetti" */;
+			buildPhases = (
+				F264494524FEF1D4003895BA /* Sources */,
+				F264494624FEF1D4003895BA /* Frameworks */,
+				F264494724FEF1D4003895BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SFSU-Dominic-Confetti";
+			productName = "SFSU-Dominic-Confetti";
+			productReference = F264494924FEF1D4003895BA /* SFSU-Dominic-Confetti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F264495E24FEF1D5003895BA /* SFSU-Dominic-ConfettiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F264497624FEF1D5003895BA /* Build configuration list for PBXNativeTarget "SFSU-Dominic-ConfettiTests" */;
+			buildPhases = (
+				F264495B24FEF1D5003895BA /* Sources */,
+				F264495C24FEF1D5003895BA /* Frameworks */,
+				F264495D24FEF1D5003895BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F264496124FEF1D5003895BA /* PBXTargetDependency */,
+			);
+			name = "SFSU-Dominic-ConfettiTests";
+			productName = "SFSU-Dominic-ConfettiTests";
+			productReference = F264495F24FEF1D5003895BA /* SFSU-Dominic-ConfettiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F264496924FEF1D5003895BA /* SFSU-Dominic-ConfettiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F264497924FEF1D5003895BA /* Build configuration list for PBXNativeTarget "SFSU-Dominic-ConfettiUITests" */;
+			buildPhases = (
+				F264496624FEF1D5003895BA /* Sources */,
+				F264496724FEF1D5003895BA /* Frameworks */,
+				F264496824FEF1D5003895BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F264496C24FEF1D5003895BA /* PBXTargetDependency */,
+			);
+			name = "SFSU-Dominic-ConfettiUITests";
+			productName = "SFSU-Dominic-ConfettiUITests";
+			productReference = F264496A24FEF1D5003895BA /* SFSU-Dominic-ConfettiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F264494124FEF1D4003895BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = SFSU;
+				TargetAttributes = {
+					F264494824FEF1D4003895BA = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					F264495E24FEF1D5003895BA = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = F264494824FEF1D4003895BA;
+					};
+					F264496924FEF1D5003895BA = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = F264494824FEF1D4003895BA;
+					};
+				};
+			};
+			buildConfigurationList = F264494424FEF1D4003895BA /* Build configuration list for PBXProject "SFSU-Dominic-Confetti" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F264494024FEF1D4003895BA;
+			productRefGroup = F264494A24FEF1D4003895BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F264494824FEF1D4003895BA /* SFSU-Dominic-Confetti */,
+				F264495E24FEF1D5003895BA /* SFSU-Dominic-ConfettiTests */,
+				F264496924FEF1D5003895BA /* SFSU-Dominic-ConfettiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F264494724FEF1D4003895BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F264495924FEF1D5003895BA /* LaunchScreen.storyboard in Resources */,
+				F264495624FEF1D5003895BA /* Assets.xcassets in Resources */,
+				F264495424FEF1D4003895BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F264495D24FEF1D5003895BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F264496824FEF1D5003895BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F264494524FEF1D4003895BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F264495124FEF1D4003895BA /* ViewController.swift in Sources */,
+				F264494D24FEF1D4003895BA /* AppDelegate.swift in Sources */,
+				F264494F24FEF1D4003895BA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F264495B24FEF1D5003895BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F264496424FEF1D5003895BA /* SFSU_Dominic_ConfettiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F264496624FEF1D5003895BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F264496F24FEF1D5003895BA /* SFSU_Dominic_ConfettiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F264496124FEF1D5003895BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F264494824FEF1D4003895BA /* SFSU-Dominic-Confetti */;
+			targetProxy = F264496024FEF1D5003895BA /* PBXContainerItemProxy */;
+		};
+		F264496C24FEF1D5003895BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F264494824FEF1D4003895BA /* SFSU-Dominic-Confetti */;
+			targetProxy = F264496B24FEF1D5003895BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F264495224FEF1D4003895BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F264495324FEF1D4003895BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F264495724FEF1D5003895BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F264495824FEF1D5003895BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F264497124FEF1D5003895BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F264497224FEF1D5003895BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F264497424FEF1D5003895BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SFSU-Dominic-Confetti/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.SFSU-Dominic-Confetti";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F264497524FEF1D5003895BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SFSU-Dominic-Confetti/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.SFSU-Dominic-Confetti";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F264497724FEF1D5003895BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SFSU-Dominic-ConfettiTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.SFSU-Dominic-ConfettiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFSU-Dominic-Confetti.app/SFSU-Dominic-Confetti";
+			};
+			name = Debug;
+		};
+		F264497824FEF1D5003895BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SFSU-Dominic-ConfettiTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.SFSU-Dominic-ConfettiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFSU-Dominic-Confetti.app/SFSU-Dominic-Confetti";
+			};
+			name = Release;
+		};
+		F264497A24FEF1D5003895BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SFSU-Dominic-ConfettiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.SFSU-Dominic-ConfettiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SFSU-Dominic-Confetti";
+			};
+			name = Debug;
+		};
+		F264497B24FEF1D5003895BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SFSU-Dominic-ConfettiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.SFSU-Dominic-ConfettiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SFSU-Dominic-Confetti";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F264494424FEF1D4003895BA /* Build configuration list for PBXProject "SFSU-Dominic-Confetti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F264497124FEF1D5003895BA /* Debug */,
+				F264497224FEF1D5003895BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F264497324FEF1D5003895BA /* Build configuration list for PBXNativeTarget "SFSU-Dominic-Confetti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F264497424FEF1D5003895BA /* Debug */,
+				F264497524FEF1D5003895BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F264497624FEF1D5003895BA /* Build configuration list for PBXNativeTarget "SFSU-Dominic-ConfettiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F264497724FEF1D5003895BA /* Debug */,
+				F264497824FEF1D5003895BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F264497924FEF1D5003895BA /* Build configuration list for PBXNativeTarget "SFSU-Dominic-ConfettiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F264497A24FEF1D5003895BA /* Debug */,
+				F264497B24FEF1D5003895BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F264494124FEF1D4003895BA /* Project object */;
+}
